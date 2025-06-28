@@ -208,29 +208,29 @@
         QWERTY {
             label = "BASE";
             bindings = <
-                              &kp Q  &kp W  &kp E              &kp R           &kp T        &kp Y    &kp U      &kp I                 &kp O    &kp P
-                              &kp A  &kp S  &kp D              &kp F           &kp G        &kp H    &kp J      &kp K                 &kp L    &kp SEMI
-&hml LEFT_SHIFT LEFT_CONTROL  &kp Z  &kp X  &kp C              &kp V           &kp B        &kp N    &kp M      &kp COMMA             &kp DOT  &comment_or 0 SLASH  &kp APOSTROPHE
-                                            &mt BACKSPACE TAB  &lt 1 LEFT_ALT  &kp SPACE    &kp RET  &lt 2 TAB  &mt RIGHT_ALT DELETE
+                &kp Q  &kp W  &kp E                      &kp R  &kp T        &kp Y    &kp U  &kp I          &kp O    &kp P
+                &kp A  &kp S  &kp D                      &kp F  &kp G        &kp H    &kp J  &kp K          &kp L    &kp SEMI
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C                      &kp V  &kp B        &kp N    &kp M  &kp COMMA      &kp DOT  &comment_or 0 SLASH  &kp APOSTROPHE
+                              &mt LEFT_CONTROL LEFT_ALT  &to 1  &kp SPACE    &kp RET  &to 2  &kp BACKSPACE
             >;
         };
 
         Navigation {
             label = "Navigation";
             bindings = <
-        &mt LEFT_ALT LEFT_WIN  &kp UP_ARROW    &kp TAB          &kp N8        &kp N9    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_WIN      &kp MINUS        &kt PAGE_UP
-        &kp LEFT_ARROW         &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp NUMBER_6  &kp N7    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_CONTROL  &kp KP_ASTERISK  &kp KP_DIVIDE
-&kp N0  &kp NUMBER_1           &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp N5    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_SHIFT    &kp PLUS         &kt PAGE_DOWN  &kp PERIOD
-                                               &trans           &trans        &trans    &trans                &trans                 &trans
+        &kp LEFT_ALT    &kp UP_ARROW    &kp TAB          &kp N8        &kp N9    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_WIN       &kp MINUS        &kt PAGE_UP
+        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp NUMBER_6  &kp N7    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_CONTROL  &kp KP_ASTERISK  &kp KP_DIVIDE
+&kp N0  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp N5    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_SHIFT    &kp PLUS         &kt PAGE_DOWN  &kp PERIOD
+                                        &trans           &trans        &trans    &trans                &trans                 &trans
             >;
         };
 
         sim_layer {
             label = "SYSTEM";
             bindings = <
-            &kp F1           &kp F2      &kp F3         &kp F4      &kp F5              &kp F6        &kp F7        &kp F8      &kp F9         &kp F10
-            &hml CARET EXCL  &kp DOLLAR  &kp LESS_THAN  &kp EQUAL   &kp GREATER_THAN    &kp C_MUTE    &kp C_PP      &kp ESCAPE  &kp RIGHT_ALT  &kp TAB
-&bt BT_CLR  &trans           &kp PIPE    &out OUT_TOG   &bt BT_PRV  &bt BT_NXT          &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT     &trans   &kp AMPERSAND
+            &kp F1           &kp F2      &kp F3         &kp F4      &kp F5              &kp F6        &kp F7        &kp F8      &kp F9      &kp F10
+            &hml CARET EXCL  &kp DOLLAR  &kp LESS_THAN  &kp EQUAL   &kp GREATER_THAN    &kp C_MUTE    &kp C_PP      &kp ESCAPE  &kp RSHIFT  &kp RCTRL
+&bt BT_CLR  &kp SLASH        &kp PIPE    &out OUT_TOG   &bt BT_PRV  &bt BT_NXT          &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp RALT   &kp AMPERSAND
                                          &trans         &trans      &trans              &trans        &trans        &trans
             >;
         };

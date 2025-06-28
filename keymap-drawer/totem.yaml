@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - ;
-  - {t: LEFT CONTROL, h: LEFT SHIFT}
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -33,21 +33,21 @@ layers:
   - .
   - {t: /, h: '&comment'}
   - ''''
-  - {t: TAB, h: BACK SPACE}
-  - {t: LEFT ALT, h: Navigation}
+  - {t: LEFT ALT, h: LEFT CONTROL}
+  - {t: Navigation, h: toggle}
   - SPACE
   - RET
-  - {t: TAB, h: SYSTEM}
-  - {t: DELETE, h: RIGHT ALT}
+  - {t: SYSTEM, h: toggle}
+  - BACK SPACE
   Navigation:
-  - {t: LEFT WIN, h: LEFT ALT}
+  - LEFT ALT
   - UP ARROW
   - TAB
   - '8'
   - '9'
   - '{'
   - '}'
-  - RIGHT WIN
+  - LEFT WIN
   - '-'
   - {t: PAGE UP, h: toggle}
   - LEFT
@@ -73,7 +73,7 @@ layers:
   - {t: PAGE DOWN, h: toggle}
   - .
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -97,10 +97,10 @@ layers:
   - MUTE
   - PP
   - ESCAPE
-  - RIGHT ALT
-  - TAB
+  - RSHIFT
+  - RCTRL
   - BT CLR
-  - {t: ▽, type: trans}
+  - /
   - '|'
   - OUT TOG
   - BT PRV
@@ -109,13 +109,13 @@ layers:
   - VOL UP
   - PREV
   - NEXT
-  - {t: ▽, type: trans}
+  - RALT
   - '&'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [16, 17]
