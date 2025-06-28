@@ -218,10 +218,10 @@
         Navigation {
             label = "Navigation";
             bindings = <
-        &kp HOME        &kp UP_ARROW    &kp END          &kp N8        &kp N9    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_WIN      &kp MINUS        &kt PAGE_UP
-        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp NUMBER_6  &kp N7    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_CONTROL  &kp KP_ASTERISK  &kp KP_DIVIDE
-&kp N0  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp N5    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_SHIFT    &kp PLUS         &kt PAGE_DOWN  &kp PERIOD
-                                        &trans           &trans        &trans    &trans                &trans                 &trans
+        &mt LEFT_ALT LEFT_WIN  &kp UP_ARROW    &kp TAB          &kp N8        &kp N9    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_WIN      &kp MINUS        &kt PAGE_UP
+        &kp LEFT_ARROW         &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp NUMBER_6  &kp N7    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_CONTROL  &kp KP_ASTERISK  &kp KP_DIVIDE
+&kp N0  &kp NUMBER_1           &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp N5    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_SHIFT    &kp PLUS         &kt PAGE_DOWN  &kp PERIOD
+                                               &trans           &trans        &trans    &trans                &trans                 &trans
             >;
         };
 

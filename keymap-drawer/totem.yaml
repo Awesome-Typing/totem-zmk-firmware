@@ -40,9 +40,9 @@ layers:
   - {t: TAB, h: SYSTEM}
   - {t: DELETE, h: RIGHT ALT}
   Navigation:
-  - HOME
+  - {t: LEFT WIN, h: LEFT ALT}
   - UP ARROW
-  - END
+  - TAB
   - '8'
   - '9'
   - '{'
