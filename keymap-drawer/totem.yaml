@@ -38,7 +38,7 @@ layers:
   - SPACE
   - RET
   - {t: TAB, h: SYSTEM}
-  - {t: BACK SPACE, h: DEL}
+  - {t: DELETE, h: BACK SPACE}
   Navigation:
   - HOME
   - UP ARROW
