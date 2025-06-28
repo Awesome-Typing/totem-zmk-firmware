@@ -21,7 +21,7 @@ layers:
   - {t: K, h: RSHFT}
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: RCTRL}
-  - TAB
+  - {t: BACK SPACE, h: DEL}
   - Z
   - X
   - C
