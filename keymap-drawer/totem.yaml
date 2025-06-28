@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - ;
-  - {t: ESC, h: LEFT SHIFT}
+  - {t: LEFT CONTROL, h: LEFT SHIFT}
   - Z
   - X
   - C
@@ -33,12 +33,12 @@ layers:
   - .
   - {t: /, h: '&comment'}
   - ''''
-  - {t: BACK SPACE, h: TAB}
+  - {t: TAB, h: BACK SPACE}
   - {t: LEFT ALT, h: Navigation}
   - SPACE
   - RET
   - {t: TAB, h: SYSTEM}
-  - {t: DELETE, h: BACK SPACE}
+  - {t: DELETE, h: RIGHT ALT}
   Navigation:
   - HOME
   - UP ARROW
@@ -57,7 +57,7 @@ layers:
   - '7'
   - '['
   - ']'
-  - RIGHT ALT
+  - RIGHT CONTROL
   - KP ASTERISK
   - KP DIVIDE
   - '0'
@@ -96,11 +96,11 @@ layers:
   - '>'
   - MUTE
   - PP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESCAPE
+  - RIGHT ALT
+  - TAB
   - BT CLR
-  - '&'
+  - {t: ▽, type: trans}
   - '|'
   - OUT TOG
   - BT PRV
@@ -110,7 +110,7 @@ layers:
   - PREV
   - NEXT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
