@@ -76,7 +76,7 @@
         };
 
         to_digits_layer {
-            bindings = <&to 3>;
+            bindings = <&to 0>;
             key-positions = <32 37>;
         };
 
@@ -208,40 +208,30 @@
         QWERTY {
             label = "BASE";
             bindings = <
-         &kp Q         &kp W        &kp E         &kp R            &kp T        &kp Y    &kp U             &kp I         &kp O             &kp P
-         &hml LCTRL A  &hml LALT S  &hml LSHFT D  &hml LEFT_GUI F  &kp G        &kp H    &hmr RIGHT_GUI J  &hmr RSHFT K  &hmr RIGHT_ALT L  &hmr RCTRL SEMICOLON
-&kp TAB  &kp Z         &kp X        &kp C         &kp V            &kp B        &kp N    &kp M             &kp COMMA     &kp DOT           &comment_or 0 SLASH   &mt DOUBLE_QUOTES SQT
-                                    &mo DIG       &lt NAV ESC      &kp SPACE    &kp RET  &lt SYS ESC       &mo DIG
+                &kp Q  &kp W  &kp E                      &kp R  &kp T        &kp Y    &kp U  &kp I          &kp O    &kp P
+                &kp A  &kp S  &kp D                      &kp F  &kp G        &kp H    &kp J  &kp K          &kp L    &kp SEMI
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C                      &kp V  &kp B        &kp N    &kp M  &kp COMMA      &kp DOT  &comment_or 0 SLASH  &kp APOSTROPHE
+                              &mt LEFT_CONTROL LEFT_ALT  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp BACKSPACE
             >;
         };
 
         Navigation {
             label = "Navigation";
             bindings = <
-        &trans  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &trans  &trans    &none   &kp HOME      &kp UP    &kp END        &kt PAGE_UP
-        &trans  &trans                &trans                &trans  &trans    &none   &kp LEFT      &kp DOWN  &kp RIGHT      &none
-&trans  &trans  &trans                &trans                &trans  &trans    &none   &kp LA(LEFT)  &none     &kp LA(RIGHT)  &kt PAGE_DOWN  &kp CAPSLOCK
-                                      &trans                &trans  &trans    &trans  &trans        &trans
-            >;
-        };
-
-        digits {
-            label = "Digits";
-            bindings = <
-        &kp PIPE                &kp DOLLAR             &kp LEFT_BRACE               &kp RIGHT_BRACE                 &press_two_keys GREATER_THAN EQUAL    &kp PLUS   &kp N7  &kp N8  &kp N9  &kp SEMICOLON
-        &hml LCTRL EXCLAMATION  &hml LEFT_ALT AT_SIGN  &hml LSHFT LEFT_PARENTHESIS  &lt NAV RIGHT_PARENTHESIS       &press_two_keys MINUS GREATER_THAN    &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp KP_MULTIPLY
-&trans  &kp AMPERSAND           &kp LCTRL              &mt LESS_THAN LEFT_BRACKET   &mt GREATER_THAN RIGHT_BRACKET  &press_two_keys LESS_THAN EQUAL       &kp MINUS  &kp N1  &kp N2  &kp N3  &kp PERIOD       &kp SLASH
-                                                       &trans                       &trans                          &trans                                &trans     &kp N0  &trans
+        &kp LEFT_ALT    &kp UP_ARROW    &kp TAB          &kp N8        &kp N9    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_WIN       &kp MINUS        &kt PAGE_UP
+        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp NUMBER_6  &kp N7    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_CONTROL  &kp KP_ASTERISK  &kp KP_DIVIDE
+&kp N0  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp N5    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_SHIFT    &kp PLUS         &kt PAGE_DOWN  &kp PERIOD
+                                        &trans           &trans        &trans    &trans                &trans                 &trans
             >;
         };
 
         sim_layer {
             label = "SYSTEM";
             bindings = <
-            &kp F1  &kp F2  &kp F3        &kp F4      &kp F5        &kp F6        &kp F7        &kp F8      &kp F9      &kp F10
-            &trans  &trans  &trans        &trans      &trans        &kp C_MUTE    &kp C_PP      &trans      &trans      &trans
-&bt BT_CLR  &trans  &trans  &out OUT_TOG  &bt BT_PRV  &bt BT_NXT    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &trans   &trans
-                            &trans        &trans      &trans        &trans        &trans        &trans
+            &kp F1           &kp F2      &kp F3         &kp F4      &kp F5              &kp F6        &kp F7        &kp F8      &kp F9      &kp F10
+            &hml CARET EXCL  &kp DOLLAR  &kp LESS_THAN  &kp EQUAL   &kp GREATER_THAN    &kp C_MUTE    &kp C_PP      &kp ESCAPE  &kp RSHIFT  &kp RCTRL
+&bt BT_CLR  &kp SLASH        &kp PIPE    &out OUT_TOG   &bt BT_PRV  &bt BT_NXT          &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp RALT   &kp AMPERSAND
+                                         &kp LSHIFT     &trans      &kp CAPS            &kp LEFT_ALT  &trans        &kp TAB
             >;
         };
     };
