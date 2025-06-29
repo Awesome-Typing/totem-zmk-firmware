@@ -34,10 +34,10 @@ layers:
   - {t: /, h: '&comment'}
   - ''''
   - {t: LEFT ALT, h: LEFT CONTROL}
-  - {t: Navigation, h: toggle}
+  - Navigation
   - SPACE
   - RET
-  - {t: SYSTEM, h: toggle}
+  - SYSTEM
   - BACK SPACE
   Navigation:
   - LEFT ALT
@@ -73,7 +73,7 @@ layers:
   - {t: PAGE DOWN, h: toggle}
   - .
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [16, 17]
