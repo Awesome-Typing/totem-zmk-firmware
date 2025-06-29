@@ -231,7 +231,7 @@
             &kp F1           &kp F2      &kp F3         &kp F4      &kp F5              &kp F6        &kp F7        &kp F8      &kp F9      &kp F10
             &hml CARET EXCL  &kp DOLLAR  &kp LESS_THAN  &kp EQUAL   &kp GREATER_THAN    &kp C_MUTE    &kp C_PP      &kp ESCAPE  &kp RSHIFT  &kp RCTRL
 &bt BT_CLR  &kp SLASH        &kp PIPE    &out OUT_TOG   &bt BT_PRV  &bt BT_NXT          &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &kp RALT   &kp AMPERSAND
-                                         &trans         &trans      &trans              &trans        &trans        &trans
+                                         &kp LSHIFT     &trans      &kp CAPS            &kp LEFT_ALT  &trans        &kp TAB
             >;
         };
     };

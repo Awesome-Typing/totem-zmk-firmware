@@ -111,12 +111,12 @@ layers:
   - NEXT
   - RALT
   - '&'
+  - LSHIFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - CAPS
+  - LEFT ALT
   - {type: held}
-  - {t: ▽, type: trans}
+  - TAB
 combos:
 - p: [16, 17]
   k: BACK SPACE
