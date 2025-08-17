@@ -34,11 +34,11 @@ layers:
   - {t: /, h: '&comment'}
   - {t: '''', h: '"'}
   - Digits
-  - {t: ESC, h: Navigation}
   - SPACE
+  - {t: ESC, h: Navigation}
   - RET
   - {t: ESC, h: SYSTEM}
-  - Digits
+  - {t: GAME, h: toggle}
   Navigation:
   - {t: ▽, type: trans}
   - Sft+Gui+ 3
@@ -73,8 +73,8 @@ layers:
   - {t: PAGE DOWN, h: toggle}
   - CAPSLOCK
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -156,6 +156,45 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  GAME:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - TAB
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - {t: /, h: '&comment'}
+  - {t: '''', h: '"'}
+  - LSHFT
+  - SPACE
+  - SPACE
+  - RET
+  - {t: ESC, h: SYSTEM}
+  - {t: BASE, h: toggle}
 combos:
 - p: [16, 17]
   k: BACK SPACE
